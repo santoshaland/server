@@ -15,7 +15,6 @@ app.use(function(req, res, next) {
 
 //Use Middleware
 app.use(express.json());
-app.use("/admin",adminRoutes);
 app.use("/employees",empRoutes);
 
 //listen to port for requests
