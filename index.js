@@ -1,7 +1,6 @@
 var config = require("config");
 var express = require("express");
-var adminRoutes= require("./routes/admin");
-var empRoutes= require("./routes/emp");
+var empRoutes= require("./emp");
 var app =  express();
 
 const port = parseInt(config.get("port"));
